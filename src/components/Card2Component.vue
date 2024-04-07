@@ -9,11 +9,10 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl sm:text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Meet our leadership
+          Rencontrer notre équipe
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
-          We’re a dynamic group of individuals who are passionate about what we do and dedicated to
-          delivering the best results for our clients.
+          Nous sommes un groupe dynamique de personnes passionnées par ce que nous faisons et dévouées à fournir les meilleurs résultats pour nos clients.
         </p>
       </div>
       <ul
@@ -40,19 +39,21 @@
 </template>
 
 <script setup>
+import DanPic1 from '@/assets/images/team/dan1.jpg'
+// import DanPic2 from '@/assets/images/team/dan2.jpg'
+import Idris from '@/assets/images/team/idris.jpg'
+import Blessing from '@/assets/images/team/blessing.jpg'
 const people = [
   {
     name: 'Dan Ditutala',
-    role: 'Senior Designer',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    role: 'Fullstack developper / Data analyst',
+    imageUrl: DanPic1,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.'
   },
   {
     name: 'Idris Nsimba',
-    role: 'Senior Designer',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    role: 'UI et Ux / Fullstack developper',
+    imageUrl: Idris,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.'
   },
   {
@@ -79,10 +80,8 @@ const people = [
   {
     name: 'Blessing Nzemo',
     role: 'Senior Designer',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl: Blessing,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.'
   }
-  // More people...
 ]
 </script>
