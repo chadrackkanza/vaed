@@ -33,7 +33,7 @@ jobs:
         run: npm install
       - name: Build 🔧 
         run: npm run build
-      - name: Deploy 🚀
+      - name: Deploy website 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build # The folder the action should deploy.
