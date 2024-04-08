@@ -7,7 +7,6 @@ permissions:
   contents: write
 jobs: 
   build:
-    needs: test
     runs-on: ubuntu-latest
     steps:  
       - name: Code
